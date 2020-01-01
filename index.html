@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>svg demo</title>
+<style>
+div.cont{padding-top:2em;width:50%;margin:0 auto}
+
+.ico{
+  width:24px;
+  height:24px;
+  cursor:pointer;
+}
+.ico_n1{
+  fill:#0C3A38;
+}
+.ico_n1:hover{
+  fill:#00ff00;
+}
+.ico_n2{
+  fill:#ff0000;
+}
+.ico_n2:hover{
+  fill:#0000ff;
+}
+</style>
+</head>
+<body>
+  
+  <div class="cont">
+    <svg class="ico ico_n1"><use xlink:href="#icoellipsisv"></use></svg>
+    <svg class="ico ico_n2"><use xlink:href="#icoshoppingbag"></use></svg>
+  </div>
+  
+  <script src="add_my_svg.js"></script>
+</body>
+</html>
